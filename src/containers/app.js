@@ -4,8 +4,6 @@ import store from '../index'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import { Router, Route, Link } from 'react-router'
-import MainContainer from './main-container'
-import RandomContainer from './random-recipe-container'
 
 
 var App = function(props) {
@@ -13,24 +11,28 @@ var App = function(props) {
       <MuiThemeProvider>
         <div>
             <div>
-              <h1 id = "main-title">Recipe Maker</h1>
+              <h1 id = "main-title">Mar Jewelry</h1>
             </div>
             <Tabs>
-              <Tab label="About">
+              <Tab label="Home">
                 <div>
-                  <h3 className = "roboto-text"> You can use this web app to search for a <br /> random recipe, or you can <br /> input ingredients and it will try<br />
-                      to find you a recipe using them.
+                  <h3 className = "roboto-text"> Mock up for Mar
                   </h3>
                 </div>
               </Tab>
-              <Tab label="Recipe Ingredient Search">
+              <Tab label="Collections">
                 <div>
-                <MainContainer />
+                  <h2>Collections</h2>
                 </div>
               </Tab>
-              <Tab label="Random Recipe" >
+              <Tab label="About" >
                 <div>
-                <RandomContainer />
+                  <h2>About section</h2>
+                </div>
+              </Tab>
+              <Tab label="Contact" >
+                <div>
+                  <h2>Contact Info</h2>
                 </div>
               </Tab>
             </Tabs>

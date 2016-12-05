@@ -1,7 +1,7 @@
 {
-  "name": "directors-application-react-redux",
+  "name": "mar-jewelry-react",
   "version": "0.0.1",
-  "description": "recipe application using react and redux",
+  "description": "wholesale website for mar jewelry built with react and redux",
   "engines": {
     "node": "4.2.6",
     "npm": "3.10.9"
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cgberlin/react-redux-recipe-calculator"
+    "url": ""
   },
   "license": "MIT",
   "authors": [
