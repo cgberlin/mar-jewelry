@@ -4,6 +4,7 @@ import store from '../index'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import { Router, Route, Link } from 'react-router'
+import HomePage from './home-page'
 
 
 var App = function(props) {
@@ -18,6 +19,17 @@ var App = function(props) {
                 <div>
                   <h3 className = "roboto-text"> Mock up for Mar
                   </h3>
+                  <div id = "home-page-container">
+                    <HomePage />
+                    <h4>
+                            Mar jewelry has been designed and made
+                        <br /> in Santa Barbara, California for over thirty years. 
+                        <br /> Winner of numerous design awards.  
+                        <br />Each piece is meticulously handmade in our studio.
+                        <br />  Mar jewelry can be found in fine galleries and 
+                        <br />museum shops throughout the United States.
+                    </h4>
+                  </div>
                 </div>
               </Tab>
               <Tab label="Collections">

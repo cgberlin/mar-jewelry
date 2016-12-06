@@ -1,0 +1,8 @@
+* {
+	box-sizing: border-box;
+}
+
+#home-page-container {
+	display: flex;
+	flex-flow: row;
+}
